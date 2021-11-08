@@ -114,9 +114,12 @@ string Solution::longestCommonPrefix(const vector<string> &strs) const
             }
         }
 
-        if (flag == strs.size()) {
+        if (flag == strs.size())
+        {
             result.push_back(c);
-        } else {
+        }
+        else
+        {
             return result;
         }
     }

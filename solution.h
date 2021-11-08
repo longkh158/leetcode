@@ -21,5 +21,5 @@ private:
 public:
     int romanToInt(const std::string &) const;
     std::string longestCommonPrefix(const std::vector<std::string> &) const;
-    int removeDuplicates(const vector<int> &) const;
+    int removeDuplicates(const std::vector<int> &) const;
 };
